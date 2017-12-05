@@ -13,7 +13,8 @@ body {
 }
 body {
   background: #ffffff;
-  color: #bbbaba;
+  /*color: #bbbaba;*/
+  color: #06330a;
   font: 14px/23px Arial, Tahoma, Helvetica, Verdana;
   font-weight: 400;
 }
@@ -44,7 +45,8 @@ ul {
 }
 .header-logo {
   float: left;
-  padding-top: 79px;
+  /*padding-top: 79px;*/
+  padding-top: 35px;
 }
 @media only screen and (max-width: 1199px) {
   .header-logo {
@@ -66,11 +68,12 @@ ul {
 .header-navigation {
   float: right;
   /*padding-top: 126px;*/
-  padding-top: 75px;
+  padding-top: 30px;
 }
 @media only screen and (max-width: 1199px) {
   .header-navigation {
-    padding-top: 77px;
+    /*padding-top: 77px;*/
+    padding-top: 0px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -112,9 +115,11 @@ ul {
   text-align: right;
 }
 h1 {
-  font-size: 79px;
+  /*font-size: 79px;*/
+  font-size: 50px;
   line-height: 32px;
   color: #ffffff;
+  /*color: #c9f7bd;*/
   text-transform: uppercase;
   font-weight: 300;
   font-family: Open Sans;
@@ -126,8 +131,10 @@ h1 {
   }
 }
 p.logo-quote {
-  color: #ccc;
-  font-size: 19px;
+  color: #ffffff;
+  /*color:#c9f7bd;*/
+  /*font-size: 19px;*/
+  font-size: 15px;
   line-height: 20px;
   text-transform: uppercase;
   font-weight: 300;
@@ -154,6 +161,7 @@ nav ul {
   display: inline-block;
   margin: 4px 0px;
   color: #ffffff;
+  /*color: #c9f7bd;*/
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
   text-decoration: none;
@@ -165,6 +173,7 @@ nav ul {
   font-family: Open Sans, Tahoma, Helvetica, Arial, Verdana;
   font-weight: 600;
   margin-left: 55px;
+  /*margin-left: 10px;*/
 }
 .sf-menu > li:first-child a {
   margin-left: 0;
@@ -325,7 +334,8 @@ nav ul {
 /* Stuck menu styles
 ========================================================*/
 .isStuck {
-  background: #2c3e50;
+  /*background: #2c3e50;*/
+  background: #2b2b2b;
   padding: 0px 0;
   padding-bottom: 5px;
   z-index: 999;
@@ -353,7 +363,8 @@ nav ul {
 .blue-big-title {
   font-size: 70px;
   line-height: 70px;
-  color: #3498db;
+  /*color: #3498db;*/
+  color: #b39a71;
   text-transform: uppercase;
   font-weight: 300;
   font-family: Open Sans;
@@ -365,8 +376,10 @@ nav ul {
   }
 }
 .black-big-title {
-  color: #5b605f;
-  font-size: 50px;
+  /*color: #5b605f;*/
+  color:#02670e;
+  /*font-size: 50px;*/
+  font-size: 40px;
   line-height: 55px;
   text-transform: uppercase;
   font-weight: 300;
@@ -413,10 +426,12 @@ nav ul {
 .blue-3-title {
   font-size: 20px;
   line-height: 25px;
-  color: #3498db;
+  /*color: #3498db;*/
+  color: #b39a71;
   text-transform: uppercase;
   font-weight: 300;
   font-family: Open Sans;
+  padding-left: 50px;
 }
 .white-3-title {
   font-size: 20px;
@@ -439,7 +454,8 @@ nav ul {
   right: 0;
   z-index: 50;
   padding-top: 89px;
-  border-bottom: 11px #3498db solid;
+  /*border-bottom: 11px #3498db solid;*/
+  border-bottom: 11px #c9f7bd solid;
 }
 .block1:before {
   position: absolute;
@@ -474,14 +490,19 @@ nav ul {
   }
 }
 .block1 .blue-big-title {
-  margin-top: -11px;
+  /*margin-top: -11px;*/
+  margin-top: 0px;
+  padding-left: 50px;
 }
 .block1 .black-big-title {
   padding-bottom: 25px;
+  padding-left: 50px;
 }
 .block1 p {
   padding-top: 13px;
   padding-bottom: 83px;
+  padding-left: 50px;
+  text-align: justify;
 }
 @media only screen and (max-width: 1199px) {
   .block1 .inner-block1 {
@@ -503,7 +524,8 @@ nav ul {
   background-color: #f4f5f6;
 }
 .blue-bg {
-  background-color: #7ecefd;
+  /*background-color: #7ecefd;*/
+  background-color: #b39a71;
 }
 @media only screen and (max-width: 1199px) {
   .tst {
@@ -583,7 +605,8 @@ nav ul {
   padding-bottom: 13px;
 }
 .circle-wrap3 p {
-  line-height: 24px;
+  line-height: 20px;
+  text-align: justify;
 }
 .more-link {
   font-size: 15px;
@@ -694,7 +717,8 @@ nav ul {
 .top-banner {
   width: 100%;
   height: 268px;
-  background: url('../images/top_banner.jpg') 0 top no-repeat;
+  /*background: url('../images/top_banner.jpg') 0 top no-repeat;*/
+  background: url('../images/top_banner.jpg') 0 top repeat-x;
 }
 .wrapper1 {
   padding-top: 12px;
@@ -1390,7 +1414,8 @@ footer .vert-line {
   border-radius: 50px;
   height: 45px;
   width: 45px;
-  background-color: #7ecefd;
+  /*background-color: #7ecefd;*/
+  background-color: #b39a71;
   text-align: center;
   color: #ffffff;
   z-index: 999;
