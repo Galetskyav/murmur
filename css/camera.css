@@ -326,7 +326,8 @@ bottom: 0;
 .camera_pag  {
 display: block;
 position: absolute;
-bottom: 31%;
+/*bottom: 31%;*/
+bottom: 15%;
 left: 47.5%;
 /* right: 50%; */
 /* margin: 0 -586px 0 0; */
