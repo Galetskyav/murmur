@@ -203,8 +203,8 @@ nav ul {
 ========================================================*/
 .sf-menu ul {
   position: absolute;
-  top: 72px;
-  left: 9px;
+  top: 35px;
+  left: 15px;
   background: #7ecefd;
   padding: 9px -2px;
   width: 207px;
@@ -217,6 +217,7 @@ nav ul {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  border-radius: 1em;
 }
 .sf-menu ul:before {
   content: "";
@@ -471,7 +472,8 @@ nav ul {
 .block1 .circle-post-image {
   height: 268px;
   width: 268px;
-  border-radius: 500px;
+  /*border-radius: 500px;*/
+  border-radius: 65px;
   overflow: hidden;
   float: left;
   margin-left: 100px;
@@ -1458,4 +1460,8 @@ footer .vert-line {
 .img_scl {
   height: 290px;
   object-fit: cover;
+}
+
+.flt {
+  float: left;
 }
